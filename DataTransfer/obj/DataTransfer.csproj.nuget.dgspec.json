@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jhon\\Desktop\\Projetos\\ShopEasy\\DataTrasnfer\\DataTrasnfer.csproj": {}
+    "C:\\Users\\Jhon\\Desktop\\Projetos\\ShopEasy\\DataTransfer\\DataTransfer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jhon\\Desktop\\Projetos\\ShopEasy\\DataTrasnfer\\DataTrasnfer.csproj": {
+    "C:\\Users\\Jhon\\Desktop\\Projetos\\ShopEasy\\DataTransfer\\DataTransfer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jhon\\Desktop\\Projetos\\ShopEasy\\DataTrasnfer\\DataTrasnfer.csproj",
-        "projectName": "DataTrasnfer",
-        "projectPath": "C:\\Users\\Jhon\\Desktop\\Projetos\\ShopEasy\\DataTrasnfer\\DataTrasnfer.csproj",
+        "projectUniqueName": "C:\\Users\\Jhon\\Desktop\\Projetos\\ShopEasy\\DataTransfer\\DataTransfer.csproj",
+        "projectName": "DataTransfer",
+        "projectPath": "C:\\Users\\Jhon\\Desktop\\Projetos\\ShopEasy\\DataTransfer\\DataTransfer.csproj",
         "packagesPath": "C:\\Users\\Jhon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jhon\\Desktop\\Projetos\\ShopEasy\\DataTrasnfer\\obj\\",
+        "outputPath": "C:\\Users\\Jhon\\Desktop\\Projetos\\ShopEasy\\DataTransfer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jhon\\AppData\\Roaming\\NuGet\\NuGet.Config",

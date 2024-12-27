@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "O1nBX4v4wUE=",
+  "dgSpecHash": "q27CKcZ8F70=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jhon\\Desktop\\Projetos\\ShopEasy\\DataTrasnfer\\DataTrasnfer.csproj",
+  "projectFilePath": "C:\\Users\\Jhon\\Desktop\\Projetos\\ShopEasy\\DataTransfer\\DataTransfer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jhon\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.5\\microsoft.aspnetcore.openapi.8.0.5.nupkg.sha512",
     "C:\\Users\\Jhon\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

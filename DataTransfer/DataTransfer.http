@@ -1,0 +1,6 @@
+@DataTransfer_HostAddress = http://localhost:5069
+
+GET {{DataTransfer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
