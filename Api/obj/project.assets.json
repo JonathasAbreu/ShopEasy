@@ -107,6 +107,78 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Aplicacao/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "DataTransfer": "1.0.0",
+          "Dominio": "1.0.0",
+          "Infra": "1.0.0",
+          "Microsoft.AspNetCore.OpenApi": "8.0.5",
+          "Swashbuckle.AspNetCore": "6.4.0"
+        },
+        "compile": {
+          "bin/placeholder/Aplicacao.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Aplicacao.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "DataTransfer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.OpenApi": "8.0.5",
+          "Swashbuckle.AspNetCore": "6.4.0"
+        },
+        "compile": {
+          "bin/placeholder/DataTransfer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataTransfer.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "Dominio/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Infra": "1.0.0",
+          "Microsoft.AspNetCore.OpenApi": "8.0.5",
+          "Swashbuckle.AspNetCore": "6.4.0"
+        },
+        "compile": {
+          "bin/placeholder/Dominio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Dominio.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "Infra/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.OpenApi": "8.0.5",
+          "Swashbuckle.AspNetCore": "6.4.0"
+        },
+        "compile": {
+          "bin/placeholder/Infra.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Infra.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -451,10 +523,32 @@
         "swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "Aplicacao/1.0.0": {
+      "type": "project",
+      "path": "../Aplicacao/Aplicacao.csproj",
+      "msbuildProject": "../Aplicacao/Aplicacao.csproj"
+    },
+    "DataTransfer/1.0.0": {
+      "type": "project",
+      "path": "../DataTransfer/DataTransfer.csproj",
+      "msbuildProject": "../DataTransfer/DataTransfer.csproj"
+    },
+    "Dominio/1.0.0": {
+      "type": "project",
+      "path": "../Dominio/Dominio.csproj",
+      "msbuildProject": "../Dominio/Dominio.csproj"
+    },
+    "Infra/1.0.0": {
+      "type": "project",
+      "path": "../Infra/Infra.csproj",
+      "msbuildProject": "../Infra/Infra.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Aplicacao >= 1.0.0",
+      "DataTransfer >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 8.0.5",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
@@ -486,7 +580,14 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Jhon\\Desktop\\Projetos\\ShopEasy\\Aplicacao\\Aplicacao.csproj": {
+              "projectPath": "C:\\Users\\Jhon\\Desktop\\Projetos\\ShopEasy\\Aplicacao\\Aplicacao.csproj"
+            },
+            "C:\\Users\\Jhon\\Desktop\\Projetos\\ShopEasy\\DataTransfer\\DataTransfer.csproj": {
+              "projectPath": "C:\\Users\\Jhon\\Desktop\\Projetos\\ShopEasy\\DataTransfer\\DataTransfer.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
